@@ -14,6 +14,7 @@
 		7153DF011FE31C6B003E094C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7153DEFF1FE31C6B003E094C /* LaunchScreen.storyboard */; };
 		7153DF0C1FE31C6B003E094C /* FoodSnapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7153DF0B1FE31C6B003E094C /* FoodSnapperTests.swift */; };
 		7153DF171FE31C6B003E094C /* FoodSnapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7153DF161FE31C6B003E094C /* FoodSnapperUITests.swift */; };
+		7153DF251FE31ED7003E094C /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7153DF241FE31ED7003E094C /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7153DF121FE31C6B003E094C /* FoodSnapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodSnapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7153DF161FE31C6B003E094C /* FoodSnapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSnapperUITests.swift; sourceTree = "<group>"; };
 		7153DF181FE31C6B003E094C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7153DF241FE31ED7003E094C /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				7153DEFD1FE31C6B003E094C /* Assets.xcassets */,
 				7153DEFF1FE31C6B003E094C /* LaunchScreen.storyboard */,
 				7153DF021FE31C6B003E094C /* Info.plist */,
+				7153DF241FE31ED7003E094C /* Inceptionv3.mlmodel */,
 			);
 			path = FoodSnapper;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7153DEF91FE31C6B003E094C /* ViewController.swift in Sources */,
+				7153DF251FE31ED7003E094C /* Inceptionv3.mlmodel in Sources */,
 				7153DEF71FE31C6B003E094C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,7 +431,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8K6372LQC;
 				INFOPLIST_FILE = FoodSnapper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FoodSnap.FoodSnapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +447,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8K6372LQC;
 				INFOPLIST_FILE = FoodSnapper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FoodSnap.FoodSnapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
